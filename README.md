@@ -40,7 +40,7 @@
 
 
 ## 참고자료
-- [1] Image Classification 설명: [cs231n](https://cs231n.github.io/classification/)
+- [1] Image Classification 설명: [CS231n](https://cs231n.github.io/classification/)
 - [2] Machine Learning 설명: [CS229](https://stanford.edu/~shervine/teaching/cs-229/)
 - [3] Weak Supervision: [Weak Supervision: The New Programming Paradigm for Machine Learning](https://dawn.cs.stanford.edu/2017/07/16/weak-supervision/)
 - [4] CIFAR-10 dataset: [Link](https://www.cs.toronto.edu/~kriz/cifar.html)
