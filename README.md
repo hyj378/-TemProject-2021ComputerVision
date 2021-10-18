@@ -3,6 +3,7 @@
 
 ## Challenge Overview
 [챌린지 소개영상](https://youtu.be/phcP6AtCtyc)
+
 [해당 분야 서베이 결과](https://github.com/hyj378/-TemProject-2021ComputerVision/files/7366160/default.pdf)
 
 본 챌린지는 Semi-Supervised Learning을 통한 Image Classification을 진행합니다. baseline method는 [FixMatch](https://arxiv.org/abs/2001.07685)를 이용하였으며 [Link](https://github.com/kekmodel/FixMatch-pytorch)를 baseline code로 사용하였습니다.
