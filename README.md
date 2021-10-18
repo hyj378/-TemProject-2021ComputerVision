@@ -33,10 +33,10 @@
 
 - **Dataset (CIFAR-10)**
   CIFAR-10 dataset은 10개의 Class로 구성된 데이터셋으로 32x32 해상도의 이미지가 각 클래스당 6000개로 구성되어 있습니다. 50000개의 Train Data와 10000개의 Test Data로 구성되어있으나, 학습시에는 40개의 이미지만을 이용하여 주세요.
-
+  ![image](https://user-images.githubusercontent.com/41140561/137735550-1ba008b7-c52a-4609-b82f-51335c1d54a0.png)
 ## Caution
 - 학습 시 CIFAR-10 데이터 기준으로 하나의 class 당 4개의 labeled set을 사용하여 총 **40개의 labeled dataset을 이용하여** 학습합니다.
-![image](https://user-images.githubusercontent.com/41140561/137735550-1ba008b7-c52a-4609-b82f-51335c1d54a0.png)
+
 
 
 ## 참고자료
