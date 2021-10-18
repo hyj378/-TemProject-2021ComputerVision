@@ -2,7 +2,12 @@
 2021년 세종대학교 Computer Vision 수업의 Temproject Challenge를 위한 소개 Repository 입니다.
 
 ## Challenge Overview
+[챌린지 소개영상](https://youtu.be/phcP6AtCtyc)
+[해당 분야 서베이 결과](https://github.com/hyj378/-TemProject-2021ComputerVision/files/7366160/default.pdf)
+
 본 챌린지는 Semi-Supervised Learning을 통한 Image Classification을 진행합니다. baseline method는 [FixMatch](https://arxiv.org/abs/2001.07685)를 이용하였으며 [Link](https://github.com/kekmodel/FixMatch-pytorch)를 baseline code로 사용하였습니다.
+
+해당 분야 서베이로는 unlabeled dataset에서 효과적으로 학습에 사용할 데이터셋을 선정하는 방법인 Active Learning과 2021년도 CVPR에 공개된 Meta Pseudo Labels 연구를 서베이 하였으며 링크를 올려놓았습니다.
 
 - **Image Classification**
 
@@ -16,11 +21,11 @@
   머신러닝을 Supervised Learning(지도학습), Unsupervised Learning(비지도학습), Reinforcement Learing(강화학습)의 세가지 학습 방법으로 나누는 것에 대해서는 많이 보셨을겁니다. 간단하게 소개드리자면 다음과 같습니다.[2]
   - Supervised Learning
  
-      unlabeled dataset points {x<sup>(1)</sup>, ..., x<sup>(m)</sup>}에서 hidden patterns을 찾는 학습 방법.
+      dataset points {x<sup>(1)</sup>, ..., x<sup>(m)</sup>}과 그에 대한 결과값 {y<sup>(1)</sup>, ..., y<sup>(m)</sup>}가 주어지고 x로부터 y를 예측하는 분류기를 설계하는 학습방법.
     
   - Unsupervised Learning
   
-      dataset points {x<sup>(1)</sup>, ..., x<sup>(m)</sup>}과 그에 대한 결과값 {y<sup>(1)</sup>, ..., y<sup>(m)</sup>}가 주어지고 x로부터 y를 예측하는 분류기를 설계하는 학습방법.
+      unlabeled dataset points {x<sup>(1)</sup>, ..., x<sup>(m)</sup>}에서 hidden patterns을 찾는 학습 방법.
       
   - Reinforcement Learning
  
