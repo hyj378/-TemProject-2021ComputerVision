@@ -2,7 +2,7 @@
 2021년 세종대학교 Computer Vision 수업의 Temproject Challenge를 위한 소개 Repository 입니다.
 
 ## Challenge Overview
-본 챌린지는 Semi-Supervised Learning을 통한 Image Classification을 진행합니다. 
+본 챌린지는 Semi-Supervised Learning을 통한 Image Classification을 진행합니다. baseline method는 [FixMatch](https://arxiv.org/abs/2001.07685)를 이용하였으며 [Link](https://github.com/kekmodel/FixMatch-pytorch)를 baseline code로 사용하였습니다.
 
 - **Image Classification**
 
@@ -38,8 +38,6 @@
 
 ## Caution
 - 학습 시 CIFAR-10 데이터 기준으로 하나의 class 당 4개의 labeled set을 사용하여 총 **40개의 labeled dataset을 이용하여** 학습합니다.
-
-
 
 ## 참고자료
 - [1] Image Classification 설명: [CS231n](https://cs231n.github.io/classification/)
