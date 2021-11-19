@@ -42,6 +42,16 @@
   
   ![image](https://user-images.githubusercontent.com/41140561/137735550-1ba008b7-c52a-4609-b82f-51335c1d54a0.png)
 
+
+## result 파일 제출 방법
+위에서 소개 드린 baseline github를 이용하셨다면, 해당 체크포인트로 result.py를 통해 제출할 json 파일을 생성하실 수 있습니다.
+제출 형식에 관한 정보는 [Submission Guidelines](http://203.250.148.129:3088/web/challenges/challenge-page/31/submission)에서 확인하실 수 있습니다.
+```bash
+python result.py --arch wideresnet --batch-size 64 --seed 5 --resume {체크포인트 위치} --save {저장할 json 위치}
+# 예시
+# python result.py --arch wideresnet --batch-size 64 --seed 5 --resume checkpoint/model_best.pth.tar --save here.json
+```
+
 ## Caution
 - 학습 시 CIFAR-10 데이터 기준으로 하나의 class 당 4개의 labeled set을 사용하여 총 **40개의 labeled dataset을 이용하여** 학습합니다.
 
